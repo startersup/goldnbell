@@ -30,7 +30,7 @@ body{ font-family: 'ProximaNovaLtLight';}
     border:none !important;
     min-height:52px !important;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -99,6 +99,13 @@ body{ font-family: 'ProximaNovaLtLight';}
   border: 10px solid transparent;
   padding: 15px;
    border-image: url(../images/border.png) 20% round;
+}
+#borderimg2 { 
+  border: 10px solid transparent;
+  padding: 15px;
+  -webkit-border-image: url(../images/border.png) 30 stretch; /* Safari 3.1-5 */
+  -o-border-image: url(../images/border.png) 40 stretch; /* Opera 11-12.1 */
+  border-image: url(../images/border.png) 30 stretch;
 }
 .buttonsign {
   background-color: #f72f25;
