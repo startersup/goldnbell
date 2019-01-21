@@ -205,15 +205,14 @@ body{ font-family: 'ProximaNovaLtLight';}
     font-size: 14px;
     width:50%;
     text-align: center;
-    margin-left:-10px;
-     border-left: 1px solid #c5c5c5;
+    margin-left:-3.5px;
     border-top: 1px solid #c5c5c5;
     border-right: 1px solid #c5c5c5;
     border-bottom: 1px solid #c5c5c5;
     vertical-align: bottom;
     transition: 0.5s ease;
     cursor: pointer;
-  background-color: #FDF9B2;
+     background-color:#efeffc;
      font-family: 'ProximaNovaSemibold';
 }
 .parent1
@@ -227,8 +226,8 @@ body{ font-family: 'ProximaNovaLtLight';}
     border: 1px solid #c5c5c5;
     vertical-align: bottom;
     transition: 0.5s ease;
-    cursor: pointer;   
-     background-color:#c9ffe6;
+    cursor: pointer;  
+     background-color:#f6f5f4;
      font-family: 'ProximaNovaSemibold';
 }
 .child
@@ -238,15 +237,14 @@ body{ font-family: 'ProximaNovaLtLight';}
      padding: 20px 10px;
     font-size: 14px;
     width:50%;
-    margin-left:-10px;
+     margin-left:-3.5px;
     text-align: center;
-     border-left: 1px solid #c5c5c5;
     border-bottom: 1px solid #c5c5c5;
     border-right: 1px solid #c5c5c5;
     vertical-align: bottom;
     transition: 0.5s ease;
     cursor: pointer;
-     background-color: #FDF9B2;
+    background-color:#efeffc;
      font-family: 'ProximaNovaSemibold';
 }
 .parent
@@ -263,7 +261,7 @@ body{ font-family: 'ProximaNovaLtLight';}
     vertical-align: bottom;
     transition: 0.5s ease;
     cursor: pointer;   
-     background-color: #c9ffe6;
+     background-color:#f6f5f4;
      font-family: 'ProximaNovaSemibold';
 }
 
