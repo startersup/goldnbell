@@ -163,7 +163,7 @@ body{ font-family: 'ProximaNovaLtLight';}
 
 }
 
-.products h1
+.products h1,.work h1
 {
    font-family: 'ProximaNovaBold';
     color: #000000;
@@ -172,7 +172,7 @@ body{ font-family: 'ProximaNovaLtLight';}
      font-weight:400;
         line-height:32px;
 }
-.products h3
+.products h3,.work h3
 {
     font-family: 'ProximaNovaRgRegular';
     color: #000000;
@@ -196,6 +196,10 @@ body{ font-family: 'ProximaNovaLtLight';}
 .down
 {
     padding-top:70px;
+}
+.work
+{
+    padding-top:200px;
 }
 .container1
 {
@@ -284,7 +288,10 @@ body{ font-family: 'ProximaNovaLtLight';}
 {
     padding:5px;
 }
-
+.map
+{
+    max-width:100%;
+}
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
