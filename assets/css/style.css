@@ -344,7 +344,7 @@ body{ font-family: 'ProximaNovaLtLight';}
 }
     .container1
     {
-        margin:auto;
+        margin:0;
     }
 .content h2 {
      font-family: 'ProximaNovaSemibold';
