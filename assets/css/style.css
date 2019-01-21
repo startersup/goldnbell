@@ -44,7 +44,6 @@ body{ font-family: 'ProximaNovaLtLight';}
     color:#000000;
     
 }
-
 .products h4
 {
       font-family: 'ProximaNovaSemibold';
@@ -95,6 +94,13 @@ body{ font-family: 'ProximaNovaLtLight';}
     color:#000000 !important;
       font-family: 'ProximaNovaSemibold';
     border-bottom:2px solid red;
+}
+#borderimg1 { 
+  border: 10px solid transparent;
+  padding: 15px;
+  -webkit-border-image: url(../images/border.png) 30 stretch; /* Safari 3.1-5 */
+  -o-border-image: url(../images/border.png) 40 stretch; /* Opera 11-12.1 */
+  border-image: url(../images/border.png) 30 stretch;
 }
 .buttonsign {
   background-color: #f72f25;
@@ -212,6 +218,7 @@ body{ font-family: 'ProximaNovaLtLight';}
     vertical-align: bottom;
     transition: 0.5s ease;
     cursor: pointer;
+    background-color:#ffffff;
      font-family: 'ProximaNovaSemibold';
 }
 .parent1
@@ -226,6 +233,7 @@ body{ font-family: 'ProximaNovaLtLight';}
     vertical-align: bottom;
     transition: 0.5s ease;
     cursor: pointer;  
+    background-color:#ffffff;
      font-family: 'ProximaNovaSemibold';
 }
 .child
@@ -242,6 +250,7 @@ body{ font-family: 'ProximaNovaLtLight';}
     vertical-align: bottom;
     transition: 0.5s ease;
     cursor: pointer;
+    background-color:#ffffff;
      font-family: 'ProximaNovaSemibold';
 }
 .parent
@@ -257,7 +266,8 @@ body{ font-family: 'ProximaNovaLtLight';}
     border-left: 1px solid #f5f5f5;
     vertical-align: bottom;
     transition: 0.5s ease;
-    cursor: pointer;   
+    cursor: pointer;  
+    background-color:#ffffff;
      font-family: 'ProximaNovaSemibold';
 }
 
