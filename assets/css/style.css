@@ -131,7 +131,6 @@ body{ font-family: 'ProximaNovaLtLight';}
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77bfff', endColorstr='#ffffff',GradientType=0 );
 }
 
-
 .content h1 {
     font-family: 'ProximaNovaBold';
     color: #000000;
@@ -152,6 +151,7 @@ body{ font-family: 'ProximaNovaLtLight';}
         line-height:32px;
 
 }
+
 .products h1
 {
    font-family: 'ProximaNovaBold';
@@ -159,7 +159,16 @@ body{ font-family: 'ProximaNovaLtLight';}
     font-size:40px;
     text-align:center; 
      font-weight:400;
-        line-height:48px;
+        line-height:32px;
+}
+.products h3
+{
+    font-family: 'ProximaNovaRgRegular';
+    color: #000000;
+    font-size:20px;
+    text-align:center; 
+     font-weight:400;
+        line-height:30px;
 }
 .border h4
 {
@@ -173,22 +182,62 @@ body{ font-family: 'ProximaNovaLtLight';}
    font-family: 'ProximaNovaRgRegular';
     font-size:16px;
 }
-
-.parent:hover{
-    border-bottom-color:green;
+.down
+{
+    padding-top:70px;
 }
-.child:hover{
-    border-bottom-color:green;
+.container1
+{
+    margin:0% 10%;
+}
+.parent:hover,.parent1:hover{
+    border-bottom-color:black;
+}
+.child:hover,.child1:hover{
+    border-bottom-color:black;
+}
+.child1
+{
+   position: relative;
+    display: inline-block;
+    padding: 20px 10px;
+    font-size: 14px;
+    width:50%;
+    text-align: center;
+    border-top: 1px solid #f5f5f5;
+    border-right: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+    vertical-align: bottom;
+    transition: 0.5s ease;
+    cursor: pointer;
+  
+     font-family: 'ProximaNovaSemibold';
+}
+.parent1
+{
+   position: relative;
+    display: inline-block;
+    padding: 20px 10px;
+    font-size: 14px;
+     width:40%;
+    text-align: center;
+    border: 1px solid #f5f5f5;
+    vertical-align: bottom;
+    transition: 0.5s ease;
+    cursor: pointer;   
+
+     font-family: 'ProximaNovaSemibold';
 }
 .child
 {
    position: relative;
     display: inline-block;
-    padding: 10px 10px 10px;
+     padding: 20px 10px;
     font-size: 14px;
     width:50%;
     text-align: center;
     border-bottom: 1px solid #f5f5f5;
+    border-right: 1px solid #f5f5f5;
     vertical-align: bottom;
     transition: 0.5s ease;
     cursor: pointer;
@@ -198,12 +247,13 @@ body{ font-family: 'ProximaNovaLtLight';}
 {
    position: relative;
     display: inline-block;
-    padding: 10px 10px 10px;
+    padding: 20px 10px;
     font-size: 14px;
      width:40%;
     text-align: center;
     border-bottom: 1px solid #f5f5f5;
     border-right: 1px solid #f5f5f5;
+    border-left: 1px solid #f5f5f5;
     vertical-align: bottom;
     transition: 0.5s ease;
     cursor: pointer;   
@@ -270,6 +320,10 @@ body{ font-family: 'ProximaNovaLtLight';}
     font-weight:400;
         line-height:32px;
 
+}
+    .products
+{
+ margin-top:80px;   
 }
 }
 @media (max-width: 425px)
