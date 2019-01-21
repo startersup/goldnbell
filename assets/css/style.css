@@ -212,7 +212,7 @@ body{ font-family: 'ProximaNovaLtLight';}
     vertical-align: bottom;
     transition: 0.5s ease;
     cursor: pointer;
-     background-color:#ffe4e1;
+     background-color:#ffeeed;
      font-family: 'ProximaNovaSemibold';
 }
 .parent1
@@ -244,7 +244,7 @@ body{ font-family: 'ProximaNovaLtLight';}
     vertical-align: bottom;
     transition: 0.5s ease;
     cursor: pointer;
-    background-color:#ffe4e1;
+    background-color:#ffeeed;
      font-family: 'ProximaNovaSemibold';
 }
 .parent
