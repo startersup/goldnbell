@@ -342,6 +342,10 @@ body{ font-family: 'ProximaNovaLtLight';}
 {
     padding-top:100px;
 }
+    .container1
+    {
+        margin:auto;
+    }
 .content h2 {
      font-family: 'ProximaNovaSemibold';
     color: #000000;
