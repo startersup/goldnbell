@@ -308,14 +308,19 @@ footer ul
 }
 footer ul li a 
 {
-    text-decoration: none;
+    text-decoration: none !important;
     font-size: 15px;
     padding: 5px 0;
     line-height: 20px;
     display: inline-block;
+    color:#cccccc;
     font-family: 'ProximaNovaRgRegular';
 }
 
+footer ul li a:hover{
+        color:#cccccc;
+
+}
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
