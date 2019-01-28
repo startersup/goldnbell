@@ -135,11 +135,13 @@ body{ font-family: 'ProximaNovaLtLight';}
 }
 .main
 {
+    padding-top:120px;
     min-height:100vh;
        background: -webkit-linear-gradient(top, #77bfff 0%,#9efaff 50%,#ffffff 100%);
     background: linear-gradient(to bottom, #77bfff 0%,#9efaff 50%,#ffffff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77bfff', endColorstr='#ffffff',GradientType=0 );
 }
+/*
 .content
 {
 -webkit-transform: translate(-50%,-50%);
@@ -147,12 +149,14 @@ body{ font-family: 'ProximaNovaLtLight';}
   position: absolute;
   top: 50%;
   left: 50%;
+*/
 }
 .content h1 {
     font-family: 'ProximaNovaBold';
     color: #000000;
     font-size:40px;
     text-align:center;
+    padding-top:50px;
     font-weight:400;
         line-height:48px;
 }
