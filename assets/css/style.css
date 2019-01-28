@@ -135,7 +135,6 @@ body{ font-family: 'ProximaNovaLtLight';}
 }
 .main
 {
-   margin-top:50%;
     height:100vh;
        background: -webkit-linear-gradient(top, #77bfff 0%,#9efaff 50%,#ffffff 100%);
     background: linear-gradient(to bottom, #77bfff 0%,#9efaff 50%,#ffffff 100%);
