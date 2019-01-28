@@ -135,21 +135,14 @@ body{ font-family: 'ProximaNovaLtLight';}
 }
 .main
 {
-    padding-top:120px;
     min-height:100vh;
        background: -webkit-linear-gradient(top, #77bfff 0%,#9efaff 50%,#ffffff 100%);
     background: linear-gradient(to bottom, #77bfff 0%,#9efaff 50%,#ffffff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77bfff', endColorstr='#ffffff',GradientType=0 );
 }
-/*
 .content
 {
--webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-*/
+ padding-top:150px; 
 }
 .content h1 {
     font-family: 'ProximaNovaBold';
