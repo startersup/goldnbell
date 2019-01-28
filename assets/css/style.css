@@ -385,4 +385,7 @@ body{ font-family: 'ProximaNovaLtLight';}
         line-height:32px;
 
 }
+    .content {
+    padding-top: 0px; 
+}
 }
