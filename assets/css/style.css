@@ -298,8 +298,24 @@ footer { width:100%; background-color:#263238;color:#cccccc; min-height:250px; m
 footer h3
 {
          font-family: 'ProximaNovaSemibold';
-
+    
 }
+footer ul
+{
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+}
+footer ul li a 
+{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px 0;
+    line-height: 20px;
+    display: inline-block;
+    font-family: 'ProximaNovaRgRegular';
+}
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
