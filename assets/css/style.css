@@ -140,7 +140,10 @@ body{ font-family: 'ProximaNovaLtLight';}
     background: linear-gradient(to bottom, #77bfff 0%,#9efaff 50%,#ffffff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77bfff', endColorstr='#ffffff',GradientType=0 );
 }
-
+.content
+{
+    top:50%;
+}
 .content h1 {
     font-family: 'ProximaNovaBold';
     color: #000000;
