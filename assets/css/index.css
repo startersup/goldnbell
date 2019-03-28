@@ -1,0 +1,87 @@
+.logo
+{
+    width:40px;
+    margin-top:-12px;
+}
+body{ font-family: 'ProximaNovaLtLight';}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.navbar-fixed-top.scrolled {
+  background-color: #ffffff !important;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: background-color 200ms linear;
+}
+.navbar-fixed-top
+{
+    padding:10px 0px;
+    background-color:#000000 ;
+    border:none !important;
+}
+
+.navbar-brand span
+{
+     font-family: 'ProximaNovaBold';
+   font-size:22px;
+    color:#000000;
+    
+}
+
+
+
+#borderimg1 { 
+  border: 10px solid transparent;
+  padding: 15px;
+   border-image: url(../images/border.png) 20% round;
+}
+#borderimg2 { 
+  border: 10px solid transparent;
+  padding: 15px;
+  -webkit-border-image: url(../images/border.png) 30 stretch; /* Safari 3.1-5 */
+  -o-border-image: url(../images/border.png) 40 stretch; /* Opera 11-12.1 */
+  border-image: url(../images/border.png) 30 stretch;
+}
+.buttonsign {
+  background-color: #25c16f;
+  border: none;
+  color: white;
+    border-radius:3px;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 6px 4px;
+  cursor: pointer;
+ font-family: 'ProximaNovaSemibold';
+}
+.buttonexplore {
+  background-color: #25c16f;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+     border-radius:3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 6px 4px;
+  cursor: pointer;
+ font-family: 'ProximaNovaSemibold';
+}

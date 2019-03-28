@@ -23,18 +23,16 @@ body{ font-family: 'ProximaNovaLtLight';}
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
-.navbar-default{
-  transition:500ms ease;
-  background-color:#ffffff !important;
-       color: #000000!important;
-    border:none !important;
-    min-height:54px !important;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+.navbar-fixed-top.scrolled {
+  background-color: #ffffff !important;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: background-color 200ms linear;
 }
-
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border-color: transparent !important;
+.navbar-fixed-top
+{
+    padding:10px 0px;
+    background-color:transparent !important;
+    border:none !important;
 }
 
 .navbar-brand span
@@ -67,16 +65,14 @@ float:right;
   float: left;
   display: block;
   color: #f2f2f2;
+    font-weight:500;
   text-align: center;
   padding: 14px 30px;
   text-decoration: none;
   font-size: 17px;
 }
 
-.active {
-  background-color: #4CAF50;
-  color: white;
-}
+
 
 .topnav .icon {
   display: none;
@@ -84,16 +80,16 @@ float:right;
 .navbar-nav>li a
 {
     color:#000000 !important;
-        font-family: 'ProximaNovaRgRegular';
+        font-family: 'ProximaNovaSemibold';
      font-size:16.5px;
     line-height:23px;
-    font-weight:400;
+    font-weight:500;
 }
  .navbar-nav>li a:hover
 {
-    color:#000000 !important;
+    color:#000000!important;
       font-family: 'ProximaNovaSemibold';
-    border-bottom:4px solid red;
+    background-color: transparent !important;
 }
 #borderimg1 { 
   border: 10px solid transparent;
@@ -108,9 +104,10 @@ float:right;
   border-image: url(../images/border.png) 30 stretch;
 }
 .buttonsign {
-  background-color: #f72f25;
+  background-color: #25c16f;
   border: none;
   color: white;
+    border-radius:3px;
   padding: 8px 20px;
   text-align: center;
   text-decoration: none;
@@ -121,10 +118,11 @@ float:right;
  font-family: 'ProximaNovaSemibold';
 }
 .buttonexplore {
-  background-color: #f72f25;
+  background-color: #25c16f;
   border: none;
   color: white;
   padding: 8px 20px;
+     border-radius:3px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -136,8 +134,8 @@ float:right;
 .main
 {
     min-height:100vh;
-       background: -webkit-linear-gradient(top, #77bfff 0%,#9efaff 50%,#ffffff 100%);
-    background: linear-gradient(to bottom, #77bfff 0%,#9efaff 50%,#ffffff 100%);
+       background: -webkit-linear-gradient(top, #87ff87 0%,#baffba 50%,#ffffff 100%);
+    background: linear-gradient(to bottom, #87ff87 0%,#baffba 50%,#ffffff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77bfff', endColorstr='#ffffff',GradientType=0 );
 }
 .content
@@ -151,7 +149,7 @@ float:right;
     text-align:center;
     padding-top:50px;
     font-weight:400;
-        line-height:48px;
+        line-height:60px;
 }
 .content h2 {
      font-family: 'ProximaNovaSemibold';
