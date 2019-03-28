@@ -28,7 +28,7 @@ body{ font-family: 'ProximaNovaLtLight';}
   background-color:#ffffff !important;
        color: #000000!important;
     border:none !important;
-    min-height:52px !important;
+    min-height:54px !important;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -56,7 +56,7 @@ body{ font-family: 'ProximaNovaLtLight';}
 }
 #myTopnav
 {
-    padding-left:380px;
+float:right;
 }
 
 .topnav {
@@ -68,7 +68,7 @@ body{ font-family: 'ProximaNovaLtLight';}
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 30px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -85,15 +85,15 @@ body{ font-family: 'ProximaNovaLtLight';}
 {
     color:#000000 !important;
         font-family: 'ProximaNovaRgRegular';
-     font-size:17px;
-    line-height:29px;
+     font-size:16.5px;
+    line-height:23px;
     font-weight:400;
 }
  .navbar-nav>li a:hover
 {
     color:#000000 !important;
       font-family: 'ProximaNovaSemibold';
-    border-bottom:2px solid red;
+    border-bottom:4px solid red;
 }
 #borderimg1 { 
   border: 10px solid transparent;
@@ -328,12 +328,44 @@ footer ul li a:hover{
         color:#cccccc;
 
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 740px) and (min-width : 450px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
   }
+    .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+    .fa-bars
+    {
+    float:right;
+    font-size:20px;
+        margin:20px;
+    }
+    .navbar-brand {
+    
+    height: 10px; 
+    padding: 15px 15px;
+    font-size: 18px;
+    /* line-height: 20px; */
+}
+    .navbar-default
+    {
+        height:10px !important;
+    }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+    #myTopnav {
+    padding-left:0px !important; 
+}
 }
 
 @media screen and (max-width: 600px) {
@@ -359,7 +391,6 @@ footer ul li a:hover{
     {
     float:right;
     font-size:20px;
-        padding-left:520px;
         margin:20px;
     }
     .content h1 {
@@ -394,13 +425,7 @@ footer ul li a:hover{
 }
 @media (max-width: 425px)
 {
-   .fa-bars
-    {
-    float:right;
-    font-size:20px;
-     padding-left:0px;
-    margin:20px;
-    } 
+
      .content h1 {
     font-family: 'ProximaNovaBold';
     color: #000000;
