@@ -30,11 +30,72 @@ body{ font-family: 'ProximaNovaLtLight';}
 }
 .navbar-fixed-top
 {
-    padding:10px 0px;
+    padding:5px 0px;
     background-color:transparent !important;
     border:none !important;
 }
-
+.navbar-default .navbar-nav > li.dropdown:hover > a, 
+.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+   
+   
+}
+.dropdown-menu
+{
+    border:none !important;
+    position: relative;
+    min-width: 600px !important;
+    width:100%;
+}
+#pro
+{
+    border-right:1px solid #f6f6f6;
+}
+ ul#pro {
+ list-style-type:circle;
+    
+ }
+ul#pro a
+{
+    padding:15px 0px; 
+}
+ul#pro li:first-child
+{
+    margin-top:10px !important;
+}
+ul#pro li
+{text-align:left;
+    padding:10px!important;
+}
+ul#pro li p
+{
+    font-size:13px;
+    line-height:14px;
+    font-family: 'ProximaNovaSemibold';
+    color:#6d81a1;
+}
+ul#pro li:hover
+{
+border-radius:6px;
+    background-color:#e5e5e5 !important;
+ text-decoration:none !important;  
+  
+    
+}
+ul#pro li a:hover{
+    text-decoration:none !important;
+}
+ul#pro h5
+{
+   font-family: 'ProximaNovaSemibold';
+    letter-spacing:0.5px;
+    color:#3482D1;
+    text-transform: uppercase;
+}
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+    
+}
 .navbar-brand span
 {
      font-family: 'ProximaNovaBold';
@@ -75,7 +136,7 @@ float:right;
 
 
 .topnav .icon {
-  display: none;
+
 }
 .navbar-nav>li a
 {
@@ -134,8 +195,9 @@ float:right;
 .main
 {
     min-height:100vh;
-       background: -webkit-linear-gradient(top, #87ff87 0%,#baffba 50%,#ffffff 100%);
-    background: linear-gradient(to bottom, #87ff87 0%,#baffba 50%,#ffffff 100%);
+   
+       background: -webkit-linear-gradient(top, #EAF9F2 0%,#EDFAF3 50%,#ffffff 100%);
+    background: linear-gradient(to bottom, #EAF9F2 0%,#EDFAF3 50%,#ffffff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77bfff', endColorstr='#ffffff',GradientType=0 );
 }
 .content
@@ -311,7 +373,7 @@ footer p
     font-size:16px;
     letter-spacing: 0.6px;
 }
-footer ul li a 
+footer ul>li a 
 {
     text-decoration: none !important;
     font-size: 15px;

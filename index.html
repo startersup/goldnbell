@@ -9,13 +9,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Muli:400,600,700|Open+Sans|Roboto:500" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="./assets/js/scroller.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/fonts.css">
     <script src="./assets/js/sidenav.js"></script>
+       <script src="./assets/js/scroller.js"></script>
 </head>
     <body>
     <nav class="navbar navbar-default navit navbar-fixed-top ">
@@ -27,11 +28,39 @@
             </a>
         </div>
         <div class="collapse navbar-collapse " id="myNavbar">
-            <ul class="nav navbar-nav topnav hidden-xs hidden-sm" id="myTopnav">
+            <ul class="nav navbar-nav" id="myTopnav">
                 <li><a href="./index.html">Home</a>
                 </li>
-                <li><a href="./products">Products</a>
-                </li>
+                <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Products <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <div class="row">
+                <div class="col-md-6">
+                 <ul id="pro">
+                     <h5>Taxi Firm Industry</h5>
+                   <li> <a href="">Taxi Dispatching System</a><p>No Hard Time in Dispatching Taxis </p></li>
+                     <li><a href="">Vehicle Tracking System</a><p>Track and Update Instantly Now.</p></li>
+                       <li><a href="">Driver Management System</a><p>Manage Drivers Efficiently Now.</p></li>
+                     <li><a href="">School Run Management</a><p>Manage School Runs Digitally.</p></li>
+                      <li><a href="">Cab Booking System</a><p>Book Cabs and Manage Online.</p></li>
+                      <li><a href="">Fleet Management System</a><p>Managing your Fleets Easily.</p></li>
+                 </ul>
+                </div>
+                 <div class="col-md-6">
+ <ul id="pro">
+                     <h5>Small Business Products</h5>
+                   <li> <a href="">Stock Management</a><p>No Hard Time in Dispatching Taxis </p></li>
+                     <li><a href="">Food order management</a><p>Track and Update Instantly Now.</p></li>
+                       <li><a href="">Smart Billing System</a><p>Manage Drivers Efficiently Now.</p></li>
+                     <li><a href="">Vendor Management</a><p>Manage School Runs Digitally.</p></li>
+                      <li><a href="">Employee Management</a><p>Book Cabs and Manage Online.</p></li>
+                      <li><a href="">Business Branding Tool</a><p>Managing your Fleets Easily.</p></li>
+                 </ul>
+                </div>
+              </div>
+          </ul>
+        </li>
+
                 <li><a href="./pricing">Pricing</a>
                 </li>
                 <li><a href="./Customers">Customers</a>
@@ -40,19 +69,19 @@
                 </li>
                 <li><a href="./contact">Contact</a>
                 </li>
-                <li><button class="buttonsign">SIGN UP NOW</button></li>
+                <li><button class="buttonsign">SIGN UP</button></li>
             </ul>
         </div></div>
     </nav>
         <div class="main">
         <div class="content container">
             <div class="row">
-                <div class="col-md-6">
-          <h1>Product Development & Digital Marketing Company</h1>  
-           <h2>Getting Started of your New Business with a Professional website or a product that helps your Business by reducing the workflow and Manpower and increase the sales in great numbers.</h2> 
+                <div class="col-md-7">
+          <h1>Softwares for Small Scale Business</h1>  
+           <h2>Getting Started of your New Business with a Professional Software product that helps your Business by reducing the workflow and Manpower and increase the sales in great numbers.</h2> 
             <center><button class="buttonexplore">Explore the Products </button></center>
            </div>
-                <div class="col-md-6"><center><img style="max-width:700px;width:100%;" src="assets/images/image2.png"></center></div>
+                <div class="col-md-5"><center><img style="max-width:700px;width:100%;" src="assets/images/image2.png"></center></div>
         </div></div>
         </div>
         <section class="products">
