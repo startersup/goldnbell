@@ -221,7 +221,7 @@
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="./login">Login</a>
+                    <li><a data-toggle="modal" style="cursor:pointer;" data-target="#myModal1">Login</a>
                     </li>
                 <li>
                         <button class="buttonsign" data-toggle="modal" data-target="#myModal">SIGN UP</button>
@@ -239,6 +239,7 @@
     <a href="#">careers</a>
      <a href="#">contact</a>
       <a href="#">Blog</a>
+  <a data-toggle="modal" data-target="#myModal1">Login</a>
  <a href="./signup"><button class="buttonsign">SIGN UP</button></a>      
   </div>
 </div>
@@ -496,29 +497,54 @@
               <img class="loginimg" src="./assets/images/login.jpg">
               </div>
                <div class="col-md-6">
-                       <div class="tab-content">
-    <div id="home" class="tab-pane fade in active">
       <h3>You are one step away !</h3>
       <input id="inputel" class="controling" type="text" placeholder="Your Email Address" name="open" required>
         <input id="inputel" class="controling" type="text" placeholder="Contact Number" name="open" required>
         <input id="inputel" class="controling" type="password" placeholder="Set Password" name="open" required>
         <input id="inputel" class="controling" type="password" placeholder="Reconfirm Password" name="open" required>
         <button class="buttonexplore">Signup Now</button>
-        <a data-toggle="pill" href="#menu2"> <p>Already owning account?</p></a>
+        <a data-toggle="modal" style="cursor:pointer;" data-target="#myModal1"> <p>Already owning account?</p></a>
     </div>
-                            <div id="menu2" class="tab-pane fade">
-      <h3>Start Exploring !</h3>
-       <input id="inputel" class="controling" type="text" placeholder="Enter Email Address or Number" name="open" required>
-       <input id="inputel" class="controling" type="password" placeholder="Enter Password" name="open" required>
-                                <button class="buttonexplore">Login Now</button>
     </div>
   </div>
               </div>
             </div>
             </div>
-        </div>
-      </div>    
+    </center>
+    
+    
+          <center>
+      <div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content" style="margin-left:-100px;margin-top:50px;min-width:800px;width:100%;">
+        <div class="modal-body" >
+          <div class="row">
+            <div class="col-md-6">
+              <img class="loginimg" src="./assets/images/login.jpg">
+              </div>
+               <div class="col-md-6">
+      <h3>Start Exploring !</h3>
+                   <div class="alert alert-info">
+  <strong>Note:</strong> kindly change password every 90 days.
+</div>
+                  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <input id="inputel" class="controling" type="text" placeholder="Enter Email Address or Number" name="open" required>
+       <input id="inputel" class="controling" type="password" placeholder="Enter Password" name="open" required>
+                                <button class="buttonexplore">Login Now</button>
+         <a data-toggle="pill" href="#menu2"> <p>forget your Password?</p></a></div>
+       <div id="menu2" class="tab-pane fade">
+      <input id="inputel" class="controling" type="text" placeholder="Enter Email Address or Number" name="open" required>
+            <button class="buttonexplore">Request Password Reset</button>
     </div>
+              
+             </div>
+            </div></div>
+              </div>
+          </div>
+        </div>
+              </div>
     </center>
      <!---modal----->
 </body>

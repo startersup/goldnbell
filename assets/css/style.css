@@ -713,7 +713,7 @@ footer ul li a:hover{
     background-color: #fff;
     max-width:800px;
     width:100%;
-    padding:10px;
+    padding:5px 25px;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     border: 1px solid #999;
@@ -729,25 +729,25 @@ footer ul li a:hover{
     width:100%;
 }
 
-.tab-content
-{
-    padding:5px 20px;
-}
 
-.tab-content h3
+.modal-content h3
 {
      font-family: 'ProximaNovabold';
     font-size:26px;
     letter-spacing:0.3px;
 }
-.tab-content p
+.modal-content p
 {
      font-family: 'ProximaNovaRgRegular';
     padding:10px 0px;
     cursor:pointer;
     font-size:16px;
 }
-
+.alert-info
+{
+  font-family: 'ProximaNovaRgRegular'; 
+      font-size:15px;
+}
 /*modal login css*/
 
 /*overlay nav*/
