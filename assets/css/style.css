@@ -64,16 +64,22 @@ body{ font-family: 'ProximaNovaLtLight';}
  }
 ul#pro a, ul#pro1 a
 {
-    padding:10px 0px; 
+    padding:10px -5px; 
     
 }
 ul#pro li:first-child, ul#pro1 li:first-child
 {
     margin-top:10px !important;
 }
-ul#pro li, ul#pro1 li
+ul#pro li
 {text-align:left;
-    padding:15px 10px!important;
+    padding:15px!important;
+    margin: 5px 30px 5px 10px;
+}
+ul#pro1 li
+{text-align:left;
+    padding:15px!important;
+    margin: 5px 40px 5px -10px;
 }
 ul#pro li p, ul#pro1 li p
 {
@@ -82,10 +88,11 @@ ul#pro li p, ul#pro1 li p
     font-family: 'ProximaNovaSemibold';
     color:#6d81a1;
 }
+
 ul#pro li:hover, ul#pro1 li:hover
 {
  text-decoration:none !important;  
-  
+ background-color:#f5f5f5;
     
 }
 ul#pro li a:hover, ul#pro1 li a:hover{
