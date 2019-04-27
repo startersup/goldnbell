@@ -787,7 +787,7 @@ footer ul li a:hover{
   }
 }
 /*overlay nav*/
-@media (max-width: 768px)
+@media (max-width: 770px)
 {
 #myTopnav
 {
@@ -808,6 +808,10 @@ footer ul li a:hover{
     font-weight:400;
         line-height:48px;
 }
+    .navbar-nav
+    {
+        display:none;
+    }
     #borderimg1 { 
   border:none;
 }
