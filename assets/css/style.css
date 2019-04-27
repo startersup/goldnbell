@@ -51,7 +51,7 @@ body{ font-family: 'ProximaNovaLtLight';}
     border:none !important;
     position: relative;
     border-radius:4px !important;  
-    min-width: 600px !important;
+    min-width: 650px !important;
     width:100%;
 }
 #pro
@@ -76,7 +76,7 @@ ul#pro li
 }
 ul#pro li p
 {
-    font-size:13px;
+    font-size:14px;
     line-height:14px;
     font-family: 'ProximaNovaSemibold';
     color:#6d81a1;
@@ -88,7 +88,7 @@ ul#pro li:hover
     
 }
 ul#pro li a:hover{
-    color:#ff0000;
+   
     text-decoration:none !important;
 }
 ul#pro h5
@@ -103,6 +103,7 @@ li.dropdown:hover > .dropdown-menu {
     display: block;
     
 }
+
 .navbar-brand span
 {
      font-family: 'ProximaNovaBold';
@@ -118,6 +119,7 @@ li.dropdown:hover > .dropdown-menu {
 }
 .products p
 {
+ 
    text-align: center; 
 }
 #myTopnav
