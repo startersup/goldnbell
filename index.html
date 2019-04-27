@@ -224,7 +224,7 @@
                     <li><a href="./login">Login</a>
                     </li>
                 <li>
-                        <button class="buttonsign">SIGN UP</button>
+                        <button class="buttonsign" data-toggle="modal" data-target="#myModal">SIGN UP</button>
                     </li>
                 </ul>
             </div>
@@ -252,7 +252,7 @@
                     <center>
                          <div class="row container1 ">
                              <div class="col-md-8 col-xs-7">
-      <input id="origin-input" class="controls left" type="text" placeholder="Your Email Address" name="pick" required="" autocomplete="off"></div>
+      <input id="origin-input" class="controls left" type="text" placeholder="Your Email Address" name="open" required></div>
                              <div class="col-md-4 col-xs-5"> <button class="buttonexplore">Explore Now</button></div>
       </div>
                        
@@ -481,6 +481,51 @@
 
         </div>
     </footer>
+    
+    
+    
+    <!---modal----->
+      <center>
+      <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content" style="margin-left:-100px;margin-top:50px;min-width:800px;width:100%;">
+        <div class="modal-body" >
+          <div class="row">
+            <div class="col-md-6">
+              <img class="loginimg" src="./assets/images/login.jpg">
+              </div>
+               <div class="col-md-6">
+                       <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>You are one step away !</h3>
+      <input id="inputel" class="controling" type="text" placeholder="Your Email Address" name="open" required>
+        <input id="inputel" class="controling" type="text" placeholder="Contact Number" name="open" required>
+        <input id="inputel" class="controling" type="password" placeholder="Set Password" name="open" required>
+        <input id="inputel" class="controling" type="password" placeholder="Reconfirm Password" name="open" required>
+        <button class="buttonexplore">Signup Now</button>
+        <a data-toggle="pill" href="#menu2"> <p>Already owning account?</p></a>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Menu 1</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+                            <div id="menu2" class="tab-pane fade">
+      <h3>Start Exploring !</h3>
+       <input id="inputel" class="controling" type="text" placeholder="Enter Email Address or Number" name="open" required>
+       <input id="inputel" class="controling" type="password" placeholder="Enter Password" name="open" required>
+                                <button class="buttonexplore">Login Now</button>
+    </div>
+  </div>
+              </div>
+            </div>
+            </div>
+        </div>
+      </div>    
+    </div>
+    </center>
+     <!---modal----->
 </body>
 <style>
     .nopadding {
