@@ -329,6 +329,7 @@ padding-left:30px;
 {
    font-family: 'ProximaNovaRgRegular';
     font-size:16px;
+    line-height:24px;
 }
 .down
 {
@@ -503,6 +504,10 @@ footer ul
     overflow: hidden;
     padding: 0;
 }
+ul#menu li {
+  display:inline;
+    padding:0px 10px;
+}
 footer p
 {
   font-family: 'ProximaNovaRgRegular';
@@ -579,8 +584,8 @@ footer ul li a:hover{
     .container {
     padding-right: 15px;
     padding-left: 15px;
-    margin-right: 0 !important;
-    margin-left: 0 !important;
+    margin-right: 10px !important;
+    margin-left: 10px !important;
 }
     ul, menu, dir {
     display: block;
@@ -597,7 +602,7 @@ footer ul li a:hover{
 {
    position: relative;
     display: inline-block;
-    padding: 20px 10px;
+    padding: 20px 5px;
     font-size: 14px;
     width:45%;
     text-align: center;
@@ -614,7 +619,7 @@ footer ul li a:hover{
 {
    position: relative;
     display: inline-block;
-    padding: 20px 10px;
+    padding: 20px 5px;
     font-size: 14px;
      width:45%;
     text-align: center;
@@ -628,7 +633,7 @@ footer ul li a:hover{
 {
    position: relative;
     display: inline-block;
-     padding: 20px 10px;
+     padding: 20px 5px;
     font-size: 14px;
     width:45%;
      margin-left:-3.5px;
@@ -644,7 +649,7 @@ footer ul li a:hover{
 {
    position: relative;
     display: inline-block;
-    padding: 20px 10px;
+    padding: 20px 5px;
     font-size: 14px;
      width:45%;
     text-align: center;
@@ -656,7 +661,9 @@ footer ul li a:hover{
     cursor: pointer;  
      font-family: 'ProximaNovaSemibold';
 }
-    
+  .work {
+    padding-top:20px;
+}  
     
   .topnav.responsive a {
     float: none;
