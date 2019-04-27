@@ -51,47 +51,47 @@ body{ font-family: 'ProximaNovaLtLight';}
     border:none !important;
     position: relative;
     border-radius:4px !important;  
-    min-width: 650px !important;
+    min-width: 700px !important;
     width:100%;
 }
 #pro
 {
     border-right:1px solid #f6f6f6;
 }
- ul#pro {
+ ul#pro, ul#pro1 {
  list-style-type: none;
  }
-ul#pro a
+ul#pro a, ul#pro1 a
 {
     padding:10px 0px; 
     
 }
-ul#pro li:first-child
+ul#pro li:first-child, ul#pro1 li:first-child
 {
     margin-top:10px !important;
 }
-ul#pro li
+ul#pro li, ul#pro1 li
 {text-align:left;
-    padding:10px!important;
+    padding:15px 10px!important;
 }
-ul#pro li p
+ul#pro li p, ul#pro1 li p
 {
     font-size:14px;
     line-height:14px;
     font-family: 'ProximaNovaSemibold';
     color:#6d81a1;
 }
-ul#pro li:hover
+ul#pro li:hover, ul#pro1 li:hover
 {
  text-decoration:none !important;  
   
     
 }
-ul#pro li a:hover{
-   
+ul#pro li a:hover, ul#pro1 li a:hover{
+    background-color:#f5f5f5;
     text-decoration:none !important;
 }
-ul#pro h5
+ul#pro h5, ul#pro1 h5
 {
    font-family: 'ProximaNovaSemibold';
     letter-spacing:0.5px;
@@ -103,7 +103,10 @@ li.dropdown:hover > .dropdown-menu {
     display: block;
     
 }
-
+.navbar-brand
+{
+    margin-top:-5px;
+}
 .navbar-brand span
 {
      font-family: 'ProximaNovaBold';
@@ -124,7 +127,8 @@ li.dropdown:hover > .dropdown-menu {
 }
 #myTopnav
 {
-float:right;
+float:left;
+padding-left:30px;    
 }
 
 .topnav {
@@ -151,9 +155,9 @@ float:right;
 {
     color:#000000 !important;
         font-family: 'ProximaNovaSemibold';
-     font-size:16.5px;
+     font-size:17px;
     line-height:23px;
-    font-weight:500;
+    font-weight:400;
 }
  .navbar-nav>li a:hover
 {
@@ -183,7 +187,7 @@ float:right;
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
-  margin: 6px 4px;
+  margin: 5px 4px;
   cursor: pointer;
  font-family: 'ProximaNovaSemibold';
 }
@@ -359,6 +363,11 @@ float:right;
     cursor: pointer;  
     background-color:#ffffff;
      font-family: 'ProximaNovaSemibold';
+}
+
+.label-warning
+{
+    margin-top:-5px;
 }
 
 .parent span
