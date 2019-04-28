@@ -207,6 +207,10 @@ padding-left:30px;
 {
   background-color: #25c16f;  
 }
+.dark
+{
+    background-color: #33A5A5
+}
 .buttonexplore {
   border: none;
   color: white;
@@ -222,7 +226,7 @@ padding-left:30px;
 }
 .blue
 {
-    background-color: #528ff0;
+    background-color: #3995DC;
 }
 .but {
     border: 0;
