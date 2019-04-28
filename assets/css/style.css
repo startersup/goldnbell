@@ -819,7 +819,6 @@ footer ul li a:hover{
 /*pricing*/
 .price
 {
-    padding:10px 20px;
     margin:5px;
     background-color: #ffffff;
     border:1px solid #f1f1f1;
@@ -831,8 +830,10 @@ footer ul li a:hover{
     width:100%;
 }
 .price:hover{
-   border:1px solid #528FF0; 
+   border:4px solid #528FF0; 
+    margin:-2px;
       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
 }
 .buttonprice {
     border: none;
