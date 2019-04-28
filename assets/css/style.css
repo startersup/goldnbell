@@ -713,7 +713,7 @@ footer ul li a:hover{
     background-color: #fff;
     max-width:900px;
     width:100%;
-    margin-top:50px;
+    margin-top:100px !important;
     padding:5px 25px;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
