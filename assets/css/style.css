@@ -257,6 +257,14 @@ padding-left:30px;
     background: linear-gradient(to bottom, #f9ece0 0%,#fcf4ed 50%,#ffffff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77bfff', endColorstr='#ffffff',GradientType=0 );  
 }
+.customer
+{
+  min-height:100vh;
+   
+       background: -webkit-linear-gradient(top, #fcffba 0%,#fdffcc 50%,#ffffff 100%);
+    background: linear-gradient(to bottom, #fdffcc 0%,#fdffcc 50%,#ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77bfff', endColorstr='#ffffff',GradientType=0 );  
+}
 .pricing
 {
    min-height:100vh !important;
@@ -360,7 +368,7 @@ padding-left:30px;
     padding-top:50px;
     font-weight:400;
     letter-spacing: 1px;
-        line-height:40px;
+        line-height:60px;
 }
 .content h2 {
      font-family: 'ProximaNovaRgRegular';
@@ -370,7 +378,7 @@ padding-left:30px;
     text-align:left;
     margin:0 auto;
     font-weight:400;
-        line-height:20px;
+        line-height:35px;
 
 }
 .services h4
