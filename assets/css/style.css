@@ -186,7 +186,7 @@ padding-left:30px;
   border-image: url(../images/border.png) 30 stretch;
 }
 .buttonsign {
-  background-color: #25c16f;
+  
   border: none;
   color: white;
   padding: 8px 20px;
@@ -199,8 +199,15 @@ padding-left:30px;
  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
  font-family: 'ProximaNovaSemibold';
 }
+.red
+{
+    background-color: #ff5454; 
+}
+.green
+{
+  background-color: #25c16f;  
+}
 .buttonexplore {
-  background-color: #25c16f;
   border: none;
   color: white;
   padding: 8px 20px;
@@ -213,6 +220,7 @@ padding-left:30px;
      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
  font-family: 'ProximaNovaSemibold';
 }
+
 .main
 {
     min-height:100vh;
@@ -220,6 +228,32 @@ padding-left:30px;
        background: -webkit-linear-gradient(top, #EAF9F2 0%,#EDFAF3 50%,#ffffff 100%);
     background: linear-gradient(to bottom, #EAF9F2 0%,#EDFAF3 50%,#ffffff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77bfff', endColorstr='#ffffff',GradientType=0 );
+}
+.career
+{
+  min-height:100vh;
+   
+       background: -webkit-linear-gradient(top, #f9ece0 0%,#fcf4ed 50%,#ffffff 100%);
+    background: linear-gradient(to bottom, #f9ece0 0%,#fcf4ed 50%,#ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77bfff', endColorstr='#ffffff',GradientType=0 );  
+}
+.checked {
+  color: #EAA91B;
+}
+.openings
+{
+    margin-top:100px;
+}
+#menu li
+{
+   font-family: 'ProximaNovaSemibold';
+    font-weight:600;
+    font-size:18px;
+    padding:10px 15px;
+}
+.career
+{
+   padding-top:30px;
 }
 .top
 {
@@ -629,6 +663,20 @@ footer ul li a:hover{
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
     font-family: 'ProximaNovaSemibold';
 }
+     .buttoncareer {
+    background-color: #ff5454;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 10px 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    font-family: 'ProximaNovaSemibold';
+}
     .left
 {
     margin-left:8px;
@@ -907,10 +955,9 @@ footer ul li a:hover{
     .modal-content {
     position: relative;
     background-color: #fff;
-    min-width:400px;
     width:100%;
-        margin-left:30px;
     padding:5px 25px;
+        margin:0px 10px 0px 5px; 
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     border: 1px solid #999;
@@ -919,6 +966,10 @@ footer ul li a:hover{
     outline: 0;
     -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
     box-shadow: 0 3px 9px rgba(0,0,0,.5);
+}
+    .modal-dialog {
+    display: block;
+   padding-left: -5px !important;
 }
 .content h2 {
      font-family: 'ProximaNovaSemibold';
