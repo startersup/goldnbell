@@ -261,8 +261,8 @@ padding-left:30px;
 {
   min-height:100vh;
    
-       background: -webkit-linear-gradient(top, #fcffba 0%,#fdffcc 50%,#ffffff 100%);
-    background: linear-gradient(to bottom, #fdffcc 0%,#fdffcc 50%,#ffffff 100%);
+       background: -webkit-linear-gradient(top, #f5e8f7 0%,#f7edf9 50%,#ffffff 100%);
+    background: linear-gradient(to bottom, #f5e8f7 0%,#f7edf9 50%,#ffffff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77bfff', endColorstr='#ffffff',GradientType=0 );  
 }
 .pricing
