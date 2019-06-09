@@ -276,6 +276,13 @@ padding-left:30px;
     background: linear-gradient(to bottom, #cdeef7 0%,#e5f7fc 50%,#ffffff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77bfff', endColorstr='#ffffff',GradientType=0 );  
 }
+.contact
+{
+   min-height:100vh !important;
+       background: -webkit-linear-gradient(top, #f4f4f4 0%,#f8f8f8 50%,#ffffff 100%);
+    background: linear-gradient(to bottom, #f4f4f 0%,#fff0af 50%,#ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77bfff', endColorstr='#ffffff',GradientType=0 );  
+}
 .checked {
   color: #EAA91B;
 }
